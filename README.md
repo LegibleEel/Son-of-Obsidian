@@ -1,7 +1,8 @@
 Son Of Obsidian Brackets theme
 =======
 
-Son Of Obsidian Theme.
+Customised Son Of Obsidian Theme.
+Based on http://eclipsecolorthemes.org/?view=theme&id=1495
 
 ## HTML
 ![HTML Screenshot]("/screenshots/html.png")
@@ -15,5 +16,8 @@ Son Of Obsidian Theme.
 ## PHP
 ![PHP Screenshot]("/screenshots/php.png")
 
-## JAVA
-![JAVA Screenshot]("/screenshots/java.png")
+## XML
+![XML Screenshot]("/screenshots/xml.png")
+
+## LESS
+![LESS Screenshot]("/screenshots/less.png")
