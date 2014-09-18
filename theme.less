@@ -1,0 +1,108 @@
+/* variables */
+@background: #1E1E1E;
+@foreground: #D8D8D8;
+@alpha: #FFFFFF;
+@beta: #000000;
+@charlie: #7FB347;
+@delta: #79ABFF;
+@echo: #BED6FF;
+@foxtrot: #2A2A2A;
+@golf: #D25252;
+@hotel: #EFC090;
+@india: #CCDF32;
+@juliet: #BFA4A4;
+@kilo: #FFC600;
+@lima: #D0D0D0;
+
+/* Code Styling */
+.CodeMirror, .CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror-lines {
+    padding: 10px 0;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+    .inline-widget {
+        color: @foreground;    
+    }
+}
+
+/* Obsidian Colours */
+.cm-atom {color: @alpha;}
+.cm-plus {color: @alpha;}
+.cm-hr {color: @alpha;}
+.cm-number {color: @charlie;}
+.cm-string {color: @kilo;}
+.cm-string-2 {color: @kilo;}
+.cm-attribute {color: @echo;}
+.cm-keyword {color: @alpha;}
+.cm-tag {color: @echo;}
+.cm-bracket {color: @delta;}
+.cm-variable {color: @golf;}
+.cm-variable-2 {color: @delta;}
+.cm-variable-3 {color: @echo;}
+.cm-builtin {color: @golf;}
+.cm-quote {color: @alpha;} 
+.cm-def {color: @delta;}
+.cm-rangeinfo {color: @alpha;}
+.cm-property {color: @alpha;}
+.cm-meta {color: @alpha;}
+.cm-operator {color: @foreground;}
+.cm-comment {color: @india;}
+.cm-error {color: @golf;}
+.cm-minus {color: @juliet;}
+.cm-header {color: @foreground;}
+.cm-link {color: @foreground; text-decoration: underline;}
+.cm-em {font-style: italic;}
+
+/* Extra CSS */
+
+.CodeMirror-gutters {
+	border-right: 0px;
+    background-color: @foxtrot;
+    white-space: nowrap;
+}
+
+.CodeMirror-linenumber {
+	background-color: @background;
+	color: @lima;
+}
+
+.CodeMirror-searching {
+    background-color: @lima;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid @foreground !important;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: #000000;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    background-color: @background;
+    color: @delta !important;
+}
+
+.CodeMirror-matchhighlight {
+  	background-color: @lima;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #fff;
+}
+
+/* Non-editor styling */
+.image-view,
+.not-editor {
+    background-color: @background;
+}
+
+.view-pane .image-view {
+    color: @foreground;
+}
